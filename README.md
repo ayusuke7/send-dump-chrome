@@ -4,7 +4,7 @@
 Python steal chrome password all version are supported FUD 100 %
 
 
-## depandance
+## dependence
 
 download and install Python > 3.0
 
